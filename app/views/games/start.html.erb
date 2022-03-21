@@ -1,0 +1,9 @@
+<h1>Start the game</h1>
+
+<h2><%= @new_grid %></h2>
+<h3><%= @start_time %></h3>
+
+<form action="/result" method="get" placeholder="Who are you looking for?">
+  <input type="text" name="result">
+  <input type="submit" value="Submit !">
+</form>
